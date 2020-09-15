@@ -3,12 +3,16 @@
 @import 'reboot';
 @import 'user_info';
 
-h1{
-    font-size: 30px;
+h1 {
+  font-size: 30px;
 }
 
-h2{
-    font-size: 22px;
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 18px;
 }
 
 main {
@@ -16,8 +20,10 @@ main {
   margin: auto;
   margin-top: 120px;
   margin-bottom: 20px;
-  padding: 0 3%;
+  padding: 0 3% 10px;
   background-color: $white;
 }
 
-
+.red-title {
+  color: $primary-color;
+}
