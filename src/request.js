@@ -12,4 +12,4 @@ const fetchEducationList = (userId) => {
   );
 };
 
-export { fetchUserInfo, fetchEducationList };
+export { BASE_URL, fetchUserInfo, fetchEducationList };
