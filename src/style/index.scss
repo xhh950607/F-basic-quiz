@@ -1,3 +1,23 @@
-@import "variables";
-@import "mixins";
-@import "reboot";
+@import 'variables';
+@import 'mixins';
+@import 'reboot';
+@import 'user_info';
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 20px;
+  padding: 0 3%;
+  background-color: $white;
+}
+
+

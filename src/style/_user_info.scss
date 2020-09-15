@@ -1,0 +1,20 @@
+@import 'variables';
+
+.user-info {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid $gray-light;
+}
+
+.avatar-container {
+  height: $image-size/2;
+  position: relative;
+}
+
+.avatar {
+  width: $image-size;
+  height: $image-size;
+  position: relative;
+  top: -$image-size/2;
+  border-radius: $image-size/2;
+}
