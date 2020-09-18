@@ -1,17 +1,18 @@
-@import 'variables';
+@import "variables";
 
-.education{
-    display: flex;
-    margin-bottom: 10px;
+.education {
+  display: flex;
+  margin-bottom: 10px;
 
-    &-year{
-        flex: 1;
-        font-size: 18px;
-    }
+  &-year {
+    flex: 1;
+    font-size: 18px;
+  }
 
-    &-detail{
-        flex: 8;
-        padding: 0 1%;
-        background-color: $gray-light;
-    }
+  &-detail {
+    flex: 8;
+    //TODO feedback：padding建议使用具体值而非百分比
+    padding: 0 1%;
+    background-color: $gray-light;
+  }
 }

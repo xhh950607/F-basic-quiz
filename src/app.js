@@ -3,9 +3,12 @@ import { getUserId } from "./path";
 import "./style/index.scss";
 
 const userId = getUserId(document.location.pathname);
+// TODO feedback: 可以不需要加null
 if (!userId) return null;
 
 fetchUserInfo(userId).then(({ name, age, avatar, description }) => {
+  // TODO feedback：未处理数据是undefined的情况
+  // TODO feedback: About me 的内容和User Info在UI上为独立的内容，建议拆成独立的模块
   document.getElementById("avatar").src = avatar;
   document.getElementById("name").innerText = name;
   document.getElementById("age").innerText = age;
@@ -26,5 +29,5 @@ fetchEducationList(userId).then((educationList) => {
     .join("");
   document.getElementById("educations").innerHTML = educationsHtml;
 });
-
+// TODO feedback：应该不用return
 return null;

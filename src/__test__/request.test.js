@@ -25,6 +25,7 @@ describe("request", () => {
     },
   ];
 
+  // TODO feedback:这个mock可以分开放到相应的测试用例里
   fetchMock
     .get(`${BASE_URL}/users/1`, userInfo)
     .get(`${BASE_URL}/users/1/educations`, educationList);

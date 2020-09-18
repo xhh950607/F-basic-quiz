@@ -1,39 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Resume</title>
-</head>
-
-<body>
-  <main>
-    <section class="user-info">
-      <div class="avatar-container">
-        <img id="avatar" class="avatar" src="" />
-      </div>
-      <h1>HELLO,</h1>
-      <h2>MY NAME IS <span id="name"></span> <span id="age"></span>YO AND THIS IS MY RESUME/CV</h2>
-    </section>
-
-    <section>
-      <section>
-        <h2 class="red-title">ABOUT ME</h2>
-        <p id="description"></p>
+  <body>
+    <main>
+      <section class="user-info">
+        <div class="avatar-container">
+          <img id="avatar" class="avatar" src="" />
+        </div>
+        <h1>HELLO,</h1>
+        <h2>
+          MY NAME IS <span id="name"></span> <span id="age"></span>YO AND THIS
+          IS MY RESUME/CV
+        </h2>
       </section>
 
       <section>
-        <h2 class="red-title">EDUCATIOM</h2>
-        <ul id="educations">
-        </ul>
+        <section>
+          <h2 class="red-title">ABOUT ME</h2>
+          <p id="description"></p>
+        </section>
+
+        <section>
+          <!--        // TODO feedback：没拼对的可以用idea自动修改一下-->
+          <h2 class="red-title">EDUCATIOM</h2>
+          <ul id="educations"></ul>
+        </section>
       </section>
-    </section>
-  </main>
+    </main>
 
-  <script src=" src/app.js"></script>
-</body>
-
+    <script src=" src/app.js"></script>
+  </body>
 </html>

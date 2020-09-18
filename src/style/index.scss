@@ -1,8 +1,9 @@
-@import 'variables';
-@import 'mixins';
-@import 'reboot';
-@import 'user_info';
-@import 'education';
+@import "variables";
+// TODO 空partial可以删去 需要时再定义
+@import "mixins";
+@import "reboot";
+@import "user_info";
+@import "education";
 
 h1 {
   font-size: 30px;
@@ -16,6 +17,7 @@ h3 {
   font-size: 18px;
 }
 
+// TODO feedback:不建议用标签选择器，未来新添加的标签都会被写入html
 p {
   font-size: 18px;
 }
